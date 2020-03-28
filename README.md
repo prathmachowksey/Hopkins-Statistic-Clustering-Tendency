@@ -24,3 +24,10 @@ Hopkins’ statistic is a simple measure of clustering tendency. It is based on 
 - if the data is d dimensional, then the Hopkins statistic is defined as:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=H&space;=&space;\frac{\sum_{i=1}^{m}&space;u_{i}^{d}}{\sum_{i=1}^{m}&space;u_{i}^{d}&space;&plus;&space;\sum_{i=1}^{m}&space;w_{i}^{d}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H&space;=&space;\frac{\sum_{i=1}^{m}&space;u_{i}^{d}}{\sum_{i=1}^{m}&space;u_{i}^{d}&space;&plus;&space;\sum_{i=1}^{m}&space;w_{i}^{d}}" title="H = \frac{\sum_{i=1}^{m} u_{i}^{d}}{\sum_{i=1}^{m} u_{i}^{d} + \sum_{i=1}^{m} w_{i}^{d}}" /></a>
+
+## Measuring Clustering Tendency with Hopkins' Statistic
+- If the value is between {0.01, ...,0.3}, the data is regularly spaced.
+
+- If the value is around 0.5, it is random.
+
+- If the value is between {0.7, ..., 0.99}, it has a high tendency to cluster.
