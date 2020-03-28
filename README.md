@@ -35,7 +35,7 @@ The null and the alternative hypotheses are defined as follow:
 - Null hypothesis: the data set X is uniformly distributed (i.e., no meaningful clusters)
 - Alternative hypothesis: the data set X is not uniformly distributed (i.e., contains meaningful clusters)
 
-
+Therefore, we can interpret Hopkins' statistic in the following manner:
 - If the value is between {0.01, ...,0.3}, the data is regularly spaced.
 
 - If the value is around 0.5, it is random.
