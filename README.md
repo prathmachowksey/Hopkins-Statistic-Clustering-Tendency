@@ -41,3 +41,15 @@ Therefore, we can interpret Hopkins' statistic in the following manner:
 - If the value is around 0.5, it is random.
 
 - If the value is between {0.7, ..., 0.99}, it has a high tendency to cluster.
+
+## Clustering Tendency for the Iris Dataset
+Hopkins' Statistic was calculated for the iris dataset which averaged at about 0.82 (>0.75). Thus, we reject the null hypothesis, and conclude the iris dataset is significantly a clusterable data.
+
+## References
+
+1. https://www.datanovia.com/en/lessons/assessing-clustering-tendency/#statistical-methods
+2. https://pubs.acs.org/doi/pdf/10.1021/ci00065a010
+3. https://datascience.stackexchange.com/questions/14142/cluster-tendency-using-hopkins-statistic-implementation-in-python
+4. https://matevzkunaver.wordpress.com/2017/06/20/hopkins-test-for-cluster-tendency/
+
+
