@@ -1,5 +1,5 @@
 # Hopkins-Statistic-Clustering-Tendency
-A python implementation for computing the Hopkins' statistic [Lawson and Jurs](1990https://pubs.acs.org/doi/abs/10.1021/ci00065a010) for measuring clustering tendency of data.
+A python implementation for computing the Hopkins' statistic [(Lawson and Jurs (1990))](https://pubs.acs.org/doi/abs/10.1021/ci00065a010) for measuring clustering tendency of data.
 
 ## Clustering Tendency
 Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters). 
