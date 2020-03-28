@@ -26,6 +26,16 @@ Hopkins’ statistic is a simple measure of clustering tendency. It is based on 
 <a href="https://www.codecogs.com/eqnedit.php?latex=H&space;=&space;\frac{\sum_{i=1}^{m}&space;u_{i}^{d}}{\sum_{i=1}^{m}&space;u_{i}^{d}&space;&plus;&space;\sum_{i=1}^{m}&space;w_{i}^{d}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H&space;=&space;\frac{\sum_{i=1}^{m}&space;u_{i}^{d}}{\sum_{i=1}^{m}&space;u_{i}^{d}&space;&plus;&space;\sum_{i=1}^{m}&space;w_{i}^{d}}" title="H = \frac{\sum_{i=1}^{m} u_{i}^{d}}{\sum_{i=1}^{m} u_{i}^{d} + \sum_{i=1}^{m} w_{i}^{d}}" /></a>
 
 ## Measuring Clustering Tendency with Hopkins' Statistic
+If X were uniformly distributed, then <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{m}u_{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{m}u_{i}" title="\sum_{i=1}^{m}u_{i}" /></a>  and <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{m}w_{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{m}w_{i}" title="\sum_{i=1}^{m}w_{i}" /></a> would be close to each other, and thus H would be about 0.5. However, if clusters are present in D, then the distances for artificial points would be substantially larger than for the real ones in expectation, and thus the value of H will increase .
+
+A value for H higher than 0.75 indicates a clustering tendency at the 90% confidence level.
+
+The null and the alternative hypotheses are defined as follow:
+
+- Null hypothesis: the data set X is uniformly distributed (i.e., no meaningful clusters)
+- Alternative hypothesis: the data set X is not uniformly distributed (i.e., contains meaningful clusters)
+
+
 - If the value is between {0.01, ...,0.3}, the data is regularly spaced.
 
 - If the value is around 0.5, it is random.
